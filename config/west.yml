@@ -9,3 +9,22 @@ manifest:
       import: app/west.yml
   self:
     path: config
+# manifest:
+#   remotes:
+#     - name: zmkfirmware
+#       url-base: https://github.com/zmkfirmware
+#     - name: caksoylar
+#       url-base: https://github.com/caksoylar
+#     - name: alaasaadabdo
+#       url-base: https://github.com/alaasaadabdo
+#   projects:
+#     - name: zmk
+#       # remote: zmkfirmware
+#       # revision: main
+#       # remote: caksoylar
+#       # revision: caksoylar/experimental
+#       remote: alaasaadabdo
+#       revision: alaa
+#       import: app/west.yml
+#   self:
+#     path: config
