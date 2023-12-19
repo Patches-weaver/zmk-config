@@ -11,11 +11,7 @@
 #   - board: nice_nano_v2
 #     shield: reviung41
 #
-#---
-#include:
-#- board: seeeduino_xiao_rp2040
-#  shield: hummingbird
-
-[submodule "zmk-nodefree-config"]
-	path = zmk-nodefree-config
-	url = https://github.com/TeacherBrian/zmk-config/tree/master/zmk-nodefree-config
+---
+include:
+- board: seeeduino_xiao_rp2040
+  shield: hummingbird
