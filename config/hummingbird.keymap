@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "includes/settings.dtsi"
+// #include "includes/settings.dtsi"
 #include "includes/behaviours_homerow_mods.dtsi"
 
 // InfusedKim includes (Brian to check out commented-out files)
