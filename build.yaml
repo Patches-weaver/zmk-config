@@ -11,13 +11,11 @@
 #   - board: nice_nano_v2
 #     shield: reviung41
 #
-# ---
-# include:
-# - board: seeeduino_xiao_rp2040
-#   shield: hummingbird
+#---
+#include:
+#- board: seeeduino_xiao_rp2040
+#  shield: hummingbird
 
-on: [push, pull_request, workflow_dispatch]
-
-jobs:
-  build:
-    uses: urob/zmk/.github/workflows/build-user-config.yml@build-with-submodules
+[submodule "zmk-nodefree-config"]
+	path = zmk-nodefree-config
+	url = https://github.com/TeacherBrian/zmk-config/tree/master/zmk-nodefree-config
