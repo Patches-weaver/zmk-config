@@ -1,13 +1,12 @@
 /* source keypos definitions */
 #include "../zmk-nodefree-config/keypos_def/keypos_30keys_rufous.h"
 
-/* map Zen's extra keys */
-#define X_LH  &smart_mouse  // thumb row, left
-#define X_RH  &bs_del       // thumb row, right
+// /* map Zen's extra keys */
+// #define X_LH  &smart_mouse  // thumb row, left
+// #define X_RH  &bs_del       // thumb row, right
 
 /* source the main keymap */
 #include "base.keymap"
 
-/* use 5-column layout for Zen */
-/ { chosen { zmk,matrix_transform = &five_column_transform; }; };
-
+// /* use 5-column layout for Zen */
+// / { chosen { zmk,matrix_transform = &five_column_transform; }; };
