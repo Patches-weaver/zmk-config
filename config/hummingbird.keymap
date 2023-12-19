@@ -86,7 +86,7 @@
                     &hm LGUI P    &hm LALT S    &hm LCTRL N &hm LSHFT F   &kp G             &kp DOT       &kp A         &kp E         &kp I         &kp W
                     &kp C         &kp L         &kp D                                                     &kp U         &kp O         &kp Y
             //  ╰─────────────┴─────────────┼─────────────┤                                             ├─────────────┼─────────────┴─────────────╯
-                                                            &kp SPACE    &kp SPACE          &skq LSHIFT   &kp SPACE
+                                                            &kp SPACE    &kp SPACE          &kp SPACE   &kp SPACE
             //                                            ╰─────────────┴─────────────╯   ╰─────────────┴─────────────╯                                                            
             >;
         };
