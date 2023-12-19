@@ -9,6 +9,12 @@
 #include "../zmk-nodefree-config/helper.h"
 #include "../../zmk-nodefree-config/keypos_def/keypos_30keys_hummingbird.h"
 
+// Mabroum
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/outputs.h>
+
 // InfusedKim includes (Brian to check out commented-out files)
 #include "includes/custom_keycodes.dtsi"
 // #include "includes/settings_pd.dtsi"
