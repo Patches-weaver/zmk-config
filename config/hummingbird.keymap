@@ -4,7 +4,7 @@
  * SPDX-License-Identifier: MIT
  */
 
-#include "includes/settings.dtsi"
+//#include "includes/settings.dtsi"
 #include "includes/behaviours_homerow_mods.dtsi"
 #include "../zmk-nodefree-config/helper.h"
 #include "../../zmk-nodefree-config/keypos_def/keypos_30keys_hummingbird.h"
