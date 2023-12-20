@@ -2,7 +2,7 @@
 
 ## Layout
 
-![](layout.png) 
+##![](layout.png) 
 
 ## Links:  Repos, etc.
 
