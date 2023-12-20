@@ -210,7 +210,7 @@ ZMK_BEHAVIOR(win_sleep, macro,
     bindings = <&kp LG(X) &kp U &kp S>;
 )
 
-// misc aliases
+// Misc aliases
 #define CANCEL      &kp K_CANCEL             // cancel caps-word, num-word and smart-mouse
 #define DSK_PREV    &hmr RSHFT LG(LC(LEFT))  // previous desktop
 #define DSK_NEXT    &hmr LALT LG(LC(RIGHT))  // next     desktop
@@ -229,7 +229,7 @@ ZMK_LAYER(base,
      &hml LGUI P   &hml LALT S   &hml LCTRL N  &hml LSHFT T  &kp V            &kp MINUS     &hmr RSHFT A  &hmr LCTRL E  &hmr LALT I   &hmr LGUI W  
                    &kp F         &kp L         &kp D                                        &kp U         &kp O         &kp Y                      
 // ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                               &lt FN RET    SMART_NUM        &lt_spc NAV 0 &smart_shft                                          
+                                               &lt FN NAV 0  &lt_spc RET      SMART_NUM     &smart_shft                                         
 //                                           ╰─────────────┴─────────────╯  ╰─────────────┴─────────────╯                                          
 )
 
