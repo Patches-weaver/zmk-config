@@ -229,7 +229,7 @@ ZMK_LAYER(base,
      &hml LGUI P   &hml LALT S   &hml LCTRL N  &hml LSHFT T  &kp V            &kp MINUS     &hmr RSHFT A  &hmr LCTRL E  &hmr LALT I   &hmr LGUI W  
                    &kp F         &kp L         &kp D                                        &kp U         &kp O         &kp Y                      
 // ╰─────────────┼─────────────┴─────────────┼─────────────┼─────────────┤  ├─────────────┼─────────────┼─────────────┴─────────────┴─────────────╯
-                                               &lt FN NAV 0  &lt_spc RET      SMART_NUM     &smart_shft                                         
+                                               &lt NAV 0     &lt_spc RET      SMART_NUM     &smart_shft FN                                         
 //                                           ╰─────────────┴─────────────╯  ╰─────────────┴─────────────╯                                          
 )
 
